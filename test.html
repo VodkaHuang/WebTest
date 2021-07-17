@@ -1,0 +1,23 @@
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="/src/test.js"></script>
+</head>
+
+<body>
+    <label>單價</label>
+    <input type="text" id="i_price" value="200">
+    <br>
+    <label>數量</label>
+    <input type="text" id="i_amount" value="2">
+    <br>
+    <label>折扣</label>
+    <input type="radio" id="rb_dc_20percent_off" name="rb_discount_list" value="dc_20percent_off" checked="true">
+    <label for="dc_20percent_off">打八折</label>
+    <input type="radio" id="rb_dc_50percent_off" name="rb_discount_list" value="dc_50percent_off">
+    <label for="dc_20percent_off">打五折</label>
+    <br>
+    <input type="button" id="btn_canculate" value="結帳">
+    <br>
+    <label>總計</label>
+    <label id="lb_total" style="background-color:yellow"></label>
+</body>
